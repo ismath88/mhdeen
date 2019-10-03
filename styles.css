@@ -1,0 +1,391 @@
+body{
+    margin:0;
+    padding:0;
+    /*background:url("../images/mone.jpg");*/
+    background:lightseagreen;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#FFFFFF;
+    line-height:19px;
+    text-align:justify;
+}
+
+.container{
+/*    width:1005px;*/
+    margin:auto;
+    position:relative;
+   
+}
+.header{
+    background:url(../images/.jpg);
+    height:100px;
+    text-align:center;
+
+}
+.contact_us{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 18px;
+    color:#fff;
+    filter:alpha(opacity=50);
+    padding: 6px;
+    text-align: right;
+}
+.logo
+{
+    
+
+}
+
+
+@media all 
+and (min-width : 100px) 
+and (max-width : 180px) {
+#logoname{
+    color:#ff0000;
+    font-size:82px;
+    font-family:Algerian;
+}
+}
+#logoname{
+    color:#ff0000;
+    font-size:82px;
+    font-family:Algerian;
+}
+a{
+    color:#CC0000;
+}
+h3{
+    color:#FF9900;
+    font-size:18px;
+    text-shadow: 1px 2px #000000;
+}
+
+.both{
+    clear:both;
+    
+   
+}
+
+.content{
+    width:900px;
+    margin:auto;
+    /*	background:url(../images/bg9.jpg);*/
+   background:#fff;
+    color:#000000;
+}
+.content_controller{
+    padding:10px;
+}
+.footer{
+    background:lightcoral; 
+        color: #0000ff;
+    text-align:center;
+    padding: 10px;
+
+}
+.price_rpt{
+    border:1px solid;
+    font-size:17px;
+}
+.price_rpt th{
+    background:purple;
+    color:#fff;
+}
+
+
+.price_rpt td{
+    border-top: 1px solid #C6BEBE;
+    height: 30px;
+}
+.Meven{
+background:gold;
+}
+.Modd{
+background:gold;
+}
+.left_column{
+    float:left;
+    width:74.5%;
+}
+.right_column{
+    width:25%;
+    float:right;
+}
+.both{
+    clear:both;
+}
+.order_table{
+    border:1px solid #CCCCCC;
+    background:#fff;
+}
+.order_table th,.thheader th{
+    background:url(../images/menu-middle.png) repeat-x;
+    color:#FFFFFF;
+    padding:5px;
+    font-size:13px;
+
+}
+.curr_calc{
+    font-weight:bold;
+}
+.order_table td{
+    border-top:1px solid #E6E6E6;
+    padding:0;
+}
+.order_table td td,.order_table th td{
+    padding:5px;
+    border:none;
+} 
+.odd{
+    background:#F8F8F8
+}
+.order_table input{
+    text-align:right;
+}
+.total_price{
+    border-top:1px solid #000000;
+    padding:5px;
+    font-weight:bold;
+    font-size:15px;
+    text-align:right;
+}
+#total_price{
+    color:#FF0000;
+}
+.enForm input[type="text"]{
+    border: 1px solid #A99E9E;
+    color: #847474;
+    font-weight: bold;
+    padding: 5px;
+    width: 184px;
+}
+.curr_results{
+    background: none repeat scroll 0 0 #0000FF;
+    font-size: 24px;
+
+}
+.curr_results td{
+    border-top:1px solid #0000FF;
+    border-bottom:1px solid #0000FF;
+}
+.printer{
+    background:url("../images/print_bg.png") no-repeat scroll 0 -2px transparent;
+    color:  #A52A2A;
+    cursor: pointer;
+
+    font-weight: bold;
+    height: 38px;
+    left: 28%;
+    line-height: 38px;
+    position: absolute;
+    text-align: center;
+    width: 443px;
+    top:-38px;
+}
+.view_rates{
+    background:url(../images/bg3.jpg) no-repeat;
+    height:22px;
+    width:95px;
+    outline:none!important;
+    color:#fff;
+    font-weight:bold;
+    display:block;
+    line-height:22px;
+    text-decoration:none;
+    text-align:center;
+    font-size:11px;
+}
+.link_container{
+    padding:0 0 10px 0;
+}
+.link_head{
+    background: none repeat scroll 0 0 #6D86A4;
+    border-bottom: 1px solid #D0CACA;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px;
+}
+.link_head a{
+    color:#FFFFFF;
+    display:block;
+    text-decoration:none;
+}
+.link_content{
+    padding:0;
+}
+.link_content a{
+    background: none repeat scroll 0 0 #D9E1EE;
+    color: #2D2121;
+    display: block;
+    margin-bottom: 1px;
+    padding: 5px;
+    text-decoration: none;
+    outline:none!important;
+}
+.link_content a:hover{
+    background:#B8CEE0;
+    text-align:right;
+}
+.en_form{
+    text-align:left;
+    background:#D3D3D3;
+    color:#000;
+}
+.en-title{
+    background:#CC0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 8px;
+}
+.field_star{
+    color:#FF0000;
+    font-size:15px;
+    font-weight:bold;
+}
+.field_name{
+    font-weight:bold;
+    text-align:right;
+}
+.en_form input[type="text"],.en_form textarea{
+    width:200px;
+    border:1px solid;
+    padding:2px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.en_form input[type="submit"],.en_form input[type="reset"]{
+    background:url(../images/menu-middle.png);
+    color:#FFFFFF;
+    border:none;
+    padding:2px;
+    font-weight:bold;
+}
+.rotator_cnt{
+    padding:10px;
+    font-size:29px;
+    position:relative;
+}
+.rotator_container{
+    background:url(../images/rates-bg.png) repeat-x bottom #E4EEF7;
+    height:373px;
+    border:1px solid #9ACAEF;
+}
+.rotator_head{
+
+    transform:rotate(270deg);
+    -ms-transform:rotate(270deg); /* IE 9 */
+    -moz-transform:rotate(270deg); /* Firefox */
+    -webkit-transform:rotate(270deg); /* Safari and Chrome */
+    -o-transform:rotate(270deg); /* Opera */
+    background: url("../images/rates-title.png") repeat-x scroll 0 0 transparent;
+    color: #FFFFFF;
+    height: 44px;
+    left: -146px;
+    line-height: 44px;
+    position: absolute;
+    top: 164px;
+    width: 355px;
+}
+.rate-field{
+    text-align:left;
+    color:#6484ac;
+    padding:60px 0 0 62px;
+}
+.rate-fld{
+    text-align:right;
+    color:#7aac64;
+    padding:16px 0 ;
+}
+.subscribe_flag{
+    background:url(../images/subscribe.png) no-repeat center;
+    width:304px;
+    height:105px;
+    right:0;
+    position:absolute;
+}
+.subsc_text{
+    font-weight: bold;
+    padding: 76px 40px 0 20px;
+    text-align: right;
+}
+.subsc_text a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+.subsc_text a:hover{
+    color:#CCCCCC;
+}
+.subscribe_fld{
+    color: #4D3737;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+.subscribe_fld input[type="text"]{
+    border: 2px solid #D5D5D5;
+    color: #958888;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    width: 95%;
+}
+.subscribe_fld input[type="submit"]{
+    background:url(../images/menu-middle.png) repeat-x center;
+    border:1px solid #0066CC;
+    color:#FFFFFF;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.captcha_container{
+    background:url(../images/captcha.png);
+    width:148px;
+    height:37px;
+    margin:auto;
+    line-height:32px;
+}
+.captcha_input{
+    float: left;
+    padding: 6px 0 6px 5px;
+    text-align: left;
+    width: 48%;
+}
+.captcha_input input{
+    background: url("../images/captcha.png") no-repeat scroll -8px -6px transparent;
+    border: medium none;
+    color: #A9D791;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align:center;
+}
+.captcha_input input:active{
+    outline:none!important;
+}
+.captcha_text{
+    color: #FFFFFF;
+    float: right;
+    padding-right: 10px;
+    text-align: center;
+    width: 38%;
+}
+.cap_code{
+    background: none repeat scroll 0 0 #EFD9D9;
+    border: 1px solid #AA6464;
+    margin: 5px;
+    padding: 10px;
+    color:#AA6464;
+    text-align:center;
+    font-weight:bold;
+}
+.success{
+    background: url("../images/success.png") no-repeat scroll 2px 6px #E0F1DA;
+    border: 1px solid #6F8848;
+    color: #366019;
+    font-weight: bold;
+    margin:65px 5px;
+    padding: 14px 0 8px 40px;
+    text-align: left;
+}
