@@ -1,0 +1,170 @@
+
+
+.menu {
+    height: 45px;
+    display: block;width:892px;
+    margin:auto;
+   
+}
+
+@media all 
+and (min-width : 800px) 
+and (max-width : 920px) {
+.menu {
+    height: 45px;
+    display: block;width:892px;
+    margin:auto;
+   
+}
+}
+
+#logomhdin{
+
+width:100px;
+}
+
+@media all 
+and (min-width : 80px) 
+and (max-width : 150px) {
+#logomhdin{
+
+width:100px;
+}
+}
+
+
+
+
+@media all 
+and (min-width : 100px) 
+and (max-width : 180px) {
+#logoname{
+    color:#ff0000;
+    font-size:82px;
+    font-family:Algerian;
+}
+}
+#logoname{
+    color:#ff0000;
+    font-size:82px;
+    font-family:Algerian;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu ul li {
+    /* width and height of the menu items */
+    float: left;
+    
+    position: relative;
+    text-align: center;
+    line-height: 45px;
+    margin-left:25px;
+
+}
+.sub-title{
+    
+    color:#ffffff;
+    font-size:25px;
+    font-family:serif;
+    width:1200px;
+}
+
+
+@media all 
+and (min-width : 900px) 
+and (max-width : 1400px) {
+.sub-title{
+    
+    color:#ffffff;
+   font-size:25px;
+    font-family:serif;
+    width:1200px;
+}
+
+
+}
+
+
+.menu ul li a {
+    /* must be postioned relative  */
+       display: block;
+    width: 170px;
+    height: 45px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu ul li a span {
+    /* all layers will be absolute positioned */
+    position: absolute;
+    left: 0;
+    width: 170px;
+    margin: 0;
+
+}
+
+.menu ul li a span.out {
+    top: 0px;
+}
+
+.menu ul li a span.over,
+.menu ul li a span.bg {
+    /* hide */
+    top: -45px;
+
+
+}
+
+#menu2 {
+    background:#CC0000;
+
+}
+
+#menu2 ul li a {
+    color: #FFF;
+    margin-left: 40px;
+}
+
+#menu2 ul li a span.over {
+    background: #D8D8D8;
+    color: #218868;
+
+}
+#nav li {
+position: relative;
+ 
+    float: left;
+    list-style: none;
+    width: 139px;
+    font-size: 11px;
+    font-weight: bold;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+#nav li.first {
+    width: 140px;
+    border-left: none;
+}
+
+#nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    background:  #0000ff;
+    border-radius: 13px 87px 0px;
+  
+   }
+
+#nav a:hover {
+    background:lightsalmon;
+}
