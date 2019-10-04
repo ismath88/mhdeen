@@ -1,0 +1,74 @@
+/* CSS Document */
+body
+{
+	background-color:#FFDFEF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#main_div
+{
+	-moz-border-radius:15px 15px 15px 15px;
+	-moz-box-shadow:0 0 15px #FFB7DB;
+
+	background-color:#F8F8F8;
+	border:1px solid #800040;
+	color:#000000;
+	padding:10px;
+	position:relative;
+	z-index:1;
+	width:700px;
+}
+
+.text
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width: 150px;
+}
+
+.drop_text
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width: 153px;
+}
+
+.m_div
+{
+	padding:20px;
+	width:600px;
+}
+.head
+{
+	padding:10px;
+	width:440px;
+	font-size:16px;
+	font-weight:bold;
+	color:#800040;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.button
+{
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background-color:#FF95CA;
+	color:#000000;
+	height:30px;
+}
+.but
+{
+	background-color:#FFCEE7;
+	width:100px;
+	height:40px;
+	padding-top:8px;	
+}
+.text_red
+{
+	color:#CC0000;
+	font-size:10px;
+}
+#tab
+{
+	width:450px;
+}

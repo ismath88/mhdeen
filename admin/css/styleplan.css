@@ -1,0 +1,21 @@
+/* CSS Document */
+th
+{
+	font-weight:normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.green_bg
+{
+	background-color:#9AC361;
+}
+
+.yellow_bg
+{
+	background:#FBFBD0;
+}
+
+.lightblue_bg
+{
+	background:#A7D1FC;
+}

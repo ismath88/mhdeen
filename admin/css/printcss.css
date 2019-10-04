@@ -1,0 +1,13 @@
+body{
+margin:0px;
+padding:0px;
+font-size:14px;
+}
+
+#print_container{
+	width: 573px;
+	height: 753px;
+}
+#contents{
+	text-align:left;
+}
